@@ -1,0 +1,132 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* En-tête */
+header {
+    background-color: #343a40;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style de la section des recettes */
+.recettes-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+/* Style d'une recette */
+.recette {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.recette:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recette h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.recette p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.recette button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.recette button:hover {
+    background-color: #0056b3;
+}
+
+/* Style de la page de détail d'une recette */
+.recette-detail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.recette-detail h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.recette-detail p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.recette-detail ul {
+    margin-bottom: 20px;
+}
+
+.recette-detail li {
+    color: #666;
+    margin-bottom: 5px;
+}
+
+/* Style du pied de page */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.favoris-btn {
+    background-color: #4CAF50; /* Couleur de fond verte */
+    color: white; /* Couleur du texte blanc */
+    border: none; /* Pas de bordure */
+    padding: 10px 20px; /* Espacement intérieur */
+    text-align: center; /* Alignement du texte au centre */
+    text-decoration: none; /* Pas de soulignement */
+    display: inline-block; /* Affichage en ligne */
+    font-size: 16px; /* Taille de la police */
+    margin: 4px 2px; /* Marge extérieure */
+    cursor: pointer; /* Curseur pointeur */
+    border-radius: 8px; /* Bordure arrondie */
+}
